@@ -1,5 +1,8 @@
 # Building Serverless Calorie tracker application with AWS AppSync and Amazon Neptune
 
+> The NodeJs runtime configuration of the stack needs to be updated to nodejs12.x in the s3 template for the project. See https://aws.amazon.com/about-aws/whats-new/2019/11/aws-lambda-supports-node-js-12/
+> The cloud formation fails and is stuck in a rollback loop otherwise.
+
 ## Overview 
 
 In this workshop, you will build a serverless Calorie tracker application that will allow users to setup a daily calorie target goal, allows them to add, update and track the calories consumed or burned daily, and receive food suggestions based on their food habits.
